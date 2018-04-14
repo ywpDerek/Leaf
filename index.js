@@ -2,6 +2,7 @@ var screenWidth = document.documentElement.clientWidth || document.body.clientWi
 var screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
 function Leaf(){
 	// 属性：位置 ， 速度 ，大小    方法：初始化 ， 下落
+	console.log(123);
 	this.width = Math.random()*50+100;  //叶子随机宽度100-150
 	this.pos = {
 		left:Math.random()*(screenWidth-this.width),
